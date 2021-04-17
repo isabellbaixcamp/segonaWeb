@@ -12,6 +12,18 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+    <center>  <!-- la etiqueta label justo al inicio del body ubica todo en la pagina que haremos-->
+             <h1>Registro</h1>
+                <form action="tracking" method="post"><!-- // es imperativo señalar el metodo pues en caso contrario no envia respuesta del servlet -->
+                     Nombre: <input type="text" name="nombre"> <!-- el atributo se identifica con la etiqueta "name" para luego ser llamado -->
+                    <br>
+                     Apellidos: <input type="text" name="cognom">
+                    <br> 
+                     Email: <input type="text" name="email"><!-- cada atributo recibe una label-->
+                    <br> 
+                    <br> 
+                    <input type="submit" value="REGISTRAR">
+                </form>  
+        </center>
     </body>
 </html>
