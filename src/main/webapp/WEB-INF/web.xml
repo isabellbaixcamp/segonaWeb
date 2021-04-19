@@ -4,9 +4,25 @@
         <servlet-name>tracking</servlet-name>
         <servlet-class>sessionpack.tracking</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>track</servlet-name>
+        <servlet-class>track</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>tracking1</servlet-name>
+        <servlet-class>sessionpack.tracking1</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>tracking</servlet-name>
         <url-pattern>/tracking</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>track</servlet-name>
+        <url-pattern>/track</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>tracking1</servlet-name>
+        <url-pattern>/tracking1</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

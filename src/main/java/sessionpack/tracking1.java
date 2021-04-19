@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author hellz
  */
-public class tracking extends HttpServlet {
+public class tracking1 extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -35,17 +35,15 @@ public class tracking extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet tracking</title>");            
+            out.println("<title>Servlet tracking1</title>");            
             out.println("</head>");
             out.println("<body>");
-            //out.println("<h1>Servlet tracking at " + request.getContextPath() + "</h1>");
+         //   out.println("<h1>Servlet tracking1 at " + request.getContextPath() + "</h1>");
             out.println("<h3> Nombre: " + request.getParameter("nombre") + "</h3>" + "\n");  // se necesita el getParameter para recibir los datos del archivo jsp
             out.println("<h3> Apellido: " + request.getParameter("cognom") + "</h3>");
             out.println("<h3> Email: " + request.getParameter("email") + "</h3>");
-            
             out.println("</body>");
             out.println("</html>");
-            
         }
     }
 

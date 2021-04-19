@@ -14,7 +14,7 @@
     <body>
     <center>  <!-- la etiqueta label justo al inicio del body ubica todo en la pagina que haremos-->
              <h1>Registro</h1>
-                <form action="tracking" method="post"><!-- // es imperativo señalar el metodo pues en caso contrario no envia respuesta del servlet -->
+                <form action="tracking1" method="post"><!-- // es imperativo señalar el metodo pues en caso contrario no envia respuesta del servlet -->
                      Nombre: <input type="text" name="nombre"> <!-- el atributo se identifica con la etiqueta "name" para luego ser llamado -->
                     <br>
                      Apellidos: <input type="text" name="cognom">
