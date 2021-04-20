@@ -43,6 +43,9 @@ public class tracking1 extends HttpServlet {
             out.println("<h3> Nombre: " + request.getParameter("nombre") + "</h3>" + "\n");  // se necesita el getParameter para recibir los datos del archivo jsp
             out.println("<h3> Apellido: " + request.getParameter("cognom") + "</h3>");
             out.println("<h3> Email: " + request.getParameter("email") + "</h3>");
+            
+            Registro registro = new Registro();
+            
             out.println("</center>");
             out.println("</body>");
             out.println("</html>");

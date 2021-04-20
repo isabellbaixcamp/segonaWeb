@@ -1,7 +1,7 @@
 <%-- 
     Document   : session
     Created on : 17 abr. 2021, 18:48:13
-    Author     : hellz
+    Author     : Isabel Calzadilla
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -22,6 +22,12 @@
                      Email: <input type="text" name="email"><!-- cada atributo recibe una label-->
                     <br> 
                     <br> 
+                    <%  //    la insercion del codigo java la iniciamos en bloque con  los signo porciento
+                    String name = request.getParameter("nombre");
+                    
+                    //Registro registro = new Registro(); 
+                    
+                     %>
                     <input type="submit" value="REGISTRAR">
                 </form>  
         </center>

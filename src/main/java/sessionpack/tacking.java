@@ -38,7 +38,8 @@ public class tacking extends HttpServlet {
             out.println("<title>Servlet tacking</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet tacking at " + request.getContextPath() + "</h1>");
+            
+            
             out.println("</body>");
             out.println("</html>");
         }
