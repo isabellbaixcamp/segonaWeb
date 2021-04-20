@@ -12,6 +12,10 @@
         <servlet-name>tracking1</servlet-name>
         <servlet-class>sessionpack.tracking1</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>tacking</servlet-name>
+        <servlet-class>sessionpack.tacking</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>tracking</servlet-name>
         <url-pattern>/tracking</url-pattern>
@@ -23,6 +27,10 @@
     <servlet-mapping>
         <servlet-name>tracking1</servlet-name>
         <url-pattern>/tracking1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>tacking</servlet-name>
+        <url-pattern>/tacking</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

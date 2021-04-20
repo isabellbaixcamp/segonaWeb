@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author hellz
  */
-public class tracking1 extends HttpServlet {
+public class tacking extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -30,20 +30,15 @@ public class tracking1 extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        try ( PrintWriter out = response.getWriter()) {
+        try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet tracking1</title>");            
+            out.println("<title>Servlet tacking</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<center>");
-            out.println("<h1>Welcome Aboard </h1>");
-            out.println("<h3> Nombre: " + request.getParameter("nombre") + "</h3>" + "\n");  // se necesita el getParameter para recibir los datos del archivo jsp
-            out.println("<h3> Apellido: " + request.getParameter("cognom") + "</h3>");
-            out.println("<h3> Email: " + request.getParameter("email") + "</h3>");
-            out.println("</center>");
+            out.println("<h1>Servlet tacking at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
